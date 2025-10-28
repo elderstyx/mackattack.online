@@ -1,0 +1,5 @@
+n=1; for i in *; do mv "$i" "$(printf '%01d' $n).${i#*.}"; ((n++)); done
+
+//change page suffix depending on chapter
+
+for file in *.jpg; do mv "$file" "mack-attack-pg1_${file}"; done 
