@@ -9,7 +9,11 @@ body, div, main, section, article {
 
 /* universal background color */
 body {
-  background-color: #000000; 
+	background-image: url("../img/background.webp");
+	background-size: cover;
+	background-position: center;
+ 	background-attachment: fixed;
+ 	background-repeat: no-repeat;
 }
 
 /* header image */
@@ -104,7 +108,7 @@ a:hover {
 
 /* HEADER */
 header #nav {
-  font-size: 20px;
+  font-size: 48px;
   width: 98%;
   margin: auto;
 }
