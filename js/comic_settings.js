@@ -57,7 +57,10 @@ const pgData = [
             <p>Hi all, welcome. The websites looking a little shabby, but its based off the fantastic Rarebit framework, so Ill be able to put together something a little nicer looking soon.</p>
             <p>These pages were created from May 2025 to September 2025, and its just over a quarter of the chapter. Its already the biggest comic project Ive done yet.</p>
             <p>I hope you enjoy. If you like what you see so far, why not bookmark the page, or drop a follow at <a href="https://instagram.com/elderstyx/"> my Instagram</a>, <a href="https://www.tiktok.com/@elderstyx">my TikTok</a>, <a href="https://x.com/elderstyx/">my Twitter</a>, or <a href="https://bsky.app/profile/elderstyx.bsky.social"> my BlueSky</a>?</p>
-            <p>Also, PLEASE follow Andi on <a href="https://instagram.com/admissionsfee/"> her Instagram</a> or <a href="https://www.tiktok.com/@admissionfees">her TikTok</a>. This isnt under consideration, do it now.</p>           
+            <p>Also, PLEASE follow Andi on <a href="https://instagram.com/admissionsfee/"> her Instagram</a> or <a href="https://www.tiktok.com/@admissionfees">her TikTok</a>. This isnt under consideration, do it now.</p>
+            
+            <p>Also also, you can directly support us over on my <a href="https://www.patreon.com/cw/elderstyx">Patreon</a>! Please consider doing so, as this not only helps feed us but keeps this website alive and <strong>ad-free</strong>.
+                      
             <p>Peace and love,</p>
             <p>Sam</p>
             `,
