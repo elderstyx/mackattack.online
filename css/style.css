@@ -114,6 +114,8 @@ header #nav {
   font-size: 24px;
   width: 98%;
   margin: auto;
+  margin-bottom: 20px;
+  color: #ffff00;
 }
 
 header #nav a {
