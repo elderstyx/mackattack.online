@@ -54,10 +54,10 @@ const pgData = [
         altText: "i see you", //the alt text (mouse over text) for this particular comic. put nothing inbetween the quotes for no alt text
         imageFiles: 12, //how many image files this page is split into
         authorNotes: `
-            <p>Hi all, welcome. The website's looking a little shabby, but it's based off the fantastic Rarebit framework, so I'll be able to put together something a little nicer looking soon.</p>
-            <p>These pages were created from May 2025 to September 2025, and it's just over a quarter of the chapter. It's already the biggest comic project I've done yet.</p>
+            <p>Hi all, welcome. The websites looking a little shabby, but its based off the fantastic Rarebit framework, so Ill be able to put together something a little nicer looking soon.</p>
+            <p>These pages were created from May 2025 to September 2025, and its just over a quarter of the chapter. Its already the biggest comic project Ive done yet.</p>
             <p>I hope you enjoy. If you like what you see so far, why not bookmark the page, or drop a follow at <a href="https://instagram.com/elderstyx/"> my Instagram</a>, <a href="https://www.tiktok.com/@elderstyx">my TikTok</a>, <a href="https://x.com/elderstyx/">my Twitter</a>, or <a href="https://bsky.app/profile/elderstyx.bsky.social"> my BlueSky</a>?</p>
-            <p>Also, PLEASE follow Andi on <a href="https://instagram.com/admissionsfee/"> her Instagram</a> or <a href="https://www.tiktok.com/@admissionfees">her TikTok</a>. This isn't under consideration, do it now.</p>           
+            <p>Also, PLEASE follow Andi on <a href="https://instagram.com/admissionsfee/"> her Instagram</a> or <a href="https://www.tiktok.com/@admissionfees">her TikTok</a>. This isnt under consideration, do it now.</p>           
             <p>Peace and love,</p>
             <p>Sam</p>
             `,
