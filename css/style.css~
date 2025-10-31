@@ -56,7 +56,7 @@ header img {
 
 /* body font */
 .subPage p, footer, #authorNotes, .archiveTable {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'FluxischElse-Light';
   font-size: large;
 }
 
@@ -71,7 +71,9 @@ header img {
   outline: 3px solid #000000;
   margin: auto;
   margin-bottom: 10px;
-  padding: 0px 12px 12px;
+	padding: 15px;
+/* add TornPaper effect -sam */
+  filter: url(#filter_tornpaper); 
 }
 
 .subPage:not(.archivePage) {
@@ -99,18 +101,27 @@ header img {
 
 /* link colors */
 a {
-      color: #ffff00;
+      color: #DA5437;
     }
 
 a:hover {
-      color: #DA5437;
+      color: #ffff00;
     }
 
 /* HEADER */
 header #nav {
-  font-size: 20px;
+  font-size: 24px;
   width: 98%;
   margin: auto;
+-webkit-text-stroke: -2px black;
+}
+
+header #nav a {
+      color: #ffff00;
+}
+
+header #nav a:hover {
+      color: #DA5437;
 }
 
 #showComic h1 {
@@ -143,10 +154,13 @@ header #nav {
   background-color:#ffffff;
   outline: 3px solid #000000;
   margin: auto;
-  padding: 3px;
-  padding-top: 0px;
+  padding: 15px;
+  padding-top: 5px;
   width: 900px;
   max-width: 98%;
+  
+/* add TornPaper effect -sam */
+  filter: url(#filter_tornpaper); 
 }
 
 /* ARCHIVE PAGE */
@@ -226,4 +240,3 @@ footer a:hover {
 html, body {
   margin: 0;
 }
-

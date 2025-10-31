@@ -20,7 +20,7 @@
     <!-- header -->
     <div class="writeHeader"></div>
 
-    <div class="subPage clearfix">
+    <div class="aboutPage subPage clearfix">
         <h1>About the Comic</h1>
         <p>17-year-old Mackenzie and her prodigious friend Agnes dare to investigate the nightmarish mysteries preparing to swallow their city. But whenever danger lurks, Mackenzie’s goosebumps erupt into spines, spikes, and claws that threaten to puncture her heart. When a ghost-hunting con-artist clues them in on an ancient and powerful demon that may be responsible, all three are pulled into a vast, dangerous conspiracy that could tear apart Mackenzie’s life in her final days - and undermine the free will of countless others.</p> 
         
@@ -28,9 +28,9 @@
         <div id="authorBlurb">
         	<h2>MACK ATTACK IS CREATED BY:</h2>
             <p><strong>Samuel "elderstyx" Carré</strong> - writing, art, lettering, webmaster</p> 
-            <p>Instagram TikTok Twitter BlueSky</p>
+            <p><a href="https://www.instagram.com/elderstyx/"> Instagram</a> <a href="https://www.tiktok.com/@elderstyx"> TikTok</a></p>
             <p><strong>Andi "admissionsfee" Biggs</strong> - color, additional character design</p> 
-            <p>Instagram TikTok</p>
+            <p><a href="https://www.instagram.com/admissionsfee/"> Instagram</a> <a href="https://www.tiktok.com/@admissionfees"> TikTok</a></p>
          </div>
 <!--
          <div id="authorThanks">
@@ -63,5 +63,9 @@
 <!-- at the end of this page we only call the header and footer scripts, because we don't need use any functions from the other scripts. -->
 <script src="js/comic_header.js" defer></script>
 <script src="js/comic_footer.js" defer></script>
+
+<!-- plus the TornPaper Script -sam -->
+<script src="js/tornpaper.js" defer></script>
+
 </body>
 </html>
