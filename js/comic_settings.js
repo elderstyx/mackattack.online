@@ -52,7 +52,7 @@ const pgData = [
         title: "", //the title of the page (leaving this blank will default it to "Page X")
         date: writeDate(2025, 10, 22), //the date on which the page was posted (mainly for the archive). The date is written using a function called "writeDate", basically just put writeDate and then some parenthesis and, comma separated, the year followed by the month and the day. Don't forget another comma at the end outside the parenthesis!
         altText: "i see you", //the alt text (mouse over text) for this particular comic. put nothing inbetween the quotes for no alt text
-        imageFiles: 12, //how many image files this page is split into
+        imageFiles: 14, //how many image files this page is split into
         authorNotes: `
             <p>Hi all, welcome. The websites looking a little shabby, but its based off the fantastic Rarebit framework, so Ill be able to put together something a little nicer looking soon.</p>
             <p>These pages were created from May 2025 to September 2025, and its just over a quarter of the chapter. Its already the biggest comic project Ive done yet.</p>
