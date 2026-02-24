@@ -18,7 +18,7 @@ const maxpg = 1; //the current number of pages your comic has in total. this DOE
 const folder = "img/comics"; //directory of the folder where you keep all the comics
 const image = "mack-attack-pg"; //what you'll name all your comic pages
 const imgPart = "_" //special character(s) you put after the page number to subdivide pages into multiple image files (ie pg2_1, pg2_2, etc)
-const ext = "png"; //file extension of your comic pages
+const ext = "jpg"; //file extension of your comic pages
 
 //THUMBNAIL SETTINGS
 const thumbFolder = "img/thumbs" //directory of the folder where you keep all the thumbnail images for the comics, in case you want the archive page to use thumbnails.
