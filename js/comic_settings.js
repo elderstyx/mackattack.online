@@ -49,7 +49,7 @@ if (pg == 0) {pg = maxpg;} //display MOST RECENT COMIC when the webpage is loade
 const pgData = [
     {
         pgNum: 1, //what page number it is
-        title: "", //the title of the page (leaving this blank will default it to "Page X")
+        title: "It Came From Beneath Our School, Pt. 1", //the title of the page (leaving this blank will default it to "Page X")
         date: writeDate(2025, 10, 22), //the date on which the page was posted (mainly for the archive). The date is written using a function called "writeDate", basically just put writeDate and then some parenthesis and, comma separated, the year followed by the month and the day. Don't forget another comma at the end outside the parenthesis!
         altText: "i see you", //the alt text (mouse over text) for this particular comic. put nothing inbetween the quotes for no alt text
         imageFiles: 15, //how many image files this page is split into
@@ -67,13 +67,12 @@ const pgData = [
     },
     {
         pgNum: 2,
-        title: '',
-        date: writeDate(2025, 10, 22),
+        title: "It Came From Beneath Our School, Pt. 2",
+        date: writeDate(2026, 4, 4),
         altText: "Here's some more alt text!",
-        imageFiles: 1,
+        imageFiles: 3,
         authorNotes: `
-            <p>You can have different author notes for every page.</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vulputate, orci sit amet dignissim eleifend, magna felis malesuada nunc, ut sagittis purus mi ac urna. Fusce ligula urna, varius vel sapien sit amet, vulputate tempor felis. In hac habitasse platea dictumst. Aliquam laoreet volutpat interdum. Vestibulum non libero sit amet leo accumsan porttitor. Vivamus nec porttitor neque. Sed eget mauris quam.</p>
+            <p>A WIP part I am sharing early.</p>
             `,
     },
     {
