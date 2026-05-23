@@ -1,5 +1,7 @@
-![Rarebit](/src/img/rarebitlogo.png)
+![MACK ATTACK](/src/img/src/image/logo.svg)
+![Rarebit](/src/img/rarebitlogo_small.png)
 # A free, open-source WEBCOMIC TEMPLATE built in HTML and JavaScript
+## [READ THE COMIC](https://mackattack.online)
 ## [HOMEPAGE](https://rarebit.neocities.org)
 ## [DOWNLOAD LATEST RELEASE (v1.5)](https://rarebit.neocities.org/downloads/rarebit-1.5.zip)
 
@@ -12,7 +14,7 @@
 * give each page its own unique alt text and author notes section
 * optionally display page number and title on each page
 * choose whether first comic is displayed first or latest comic is displayed first by changing a single value
-* an archive page - fully customizeable, updates automatically as you add new pages. divide ranges of pages into chapters, choose whether to list chronologically or "latest first".
+* an archive page - fully customizable, updates automatically as you add new pages. divide ranges of pages into chapters, choose whether to list chronologically or "latest first".
 * optionally, give each comic its own thumbnail icon on the archive page.
 * support for segmented pages (pages split into two or more separate image files placed vertically), mainly for those migrating from webtoons
 * choose file extension, name, directory
