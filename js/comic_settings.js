@@ -70,7 +70,7 @@ const pgData = [
         title: "It Came From Beneath Our School, Pt. 2",
         date: writeDate(2026, 4, 4),
         altText: "",
-        imageFiles: 3,
+        imageFiles: 4,
         authorNotes: `
             <p>A WIP part I am sharing early.</p>
             `,
