@@ -102,7 +102,7 @@ header img {
 
 /* link colors */
 a {
-      color: #DA5437;
+      color: #FFAE00;
     }
 
 a:hover {
@@ -115,19 +115,19 @@ header #nav {
   width: 98%;
   margin: auto;
   margin-bottom: 20px;
-  color: #ffff00;
+  color: #ffAE00;
 }
 
 header #nav a {
-      color: #ffff00;
+      color: #ffae00;
 }
 
 header #nav a:hover {
-      color: #DA5437;
+      color: #ffffff;
 }
 
 #showComic h1 {
-      color: #ffc749;
+      color: #ffffff;
 }
 /* HOMEPAGE */
 
