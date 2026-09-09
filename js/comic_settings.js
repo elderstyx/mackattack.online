@@ -11,7 +11,7 @@ let pg = Number(findGetParameter("pg")); //make "pg" mean the current page numbe
 ////////////////////////
 
 //REALLY IMPORTANT ONES
-const maxpg = 2; //the current number of pages your comic has in total. this DOESNT necessarily mean number of IMAGE FILES as it doesn't count pages split into multiple files. 
+const maxpg = 6; //the current number of pages your comic has in total. this DOESNT necessarily mean number of IMAGE FILES as it doesn't count pages split into multiple files. 
 //YOU MUST UPDATE THIS NUMBER EVERY TIME YOU ADD A NEW PAGE or else it wont display the most recent page
 
 // COMIC PAGE SETTINGS
@@ -70,50 +70,42 @@ const pgData = [
         title: "It Came From Beneath Our School, Pt. 2",
         date: writeDate(2026, 4, 4),
         altText: "",
-        imageFiles: 5,
+        imageFiles: "5",
         authorNotes: `
             <p>A WIP part I am sharing early.</p>
             `,
     },
     {
         pgNum: 3,
-        title: '',
-        date: writeDate(2025, 10, 22),
-        altText: "Here's even more alt text!",
-        imageFiles: 1,
-        authorNotes: `
-            <p>Sed lectus magna, dignissim eu sapien quis, euismod pulvinar diam. In odio massa, auctor blandit dolor id, varius ultricies lacus. Suspendisse sed libero vel leo dictum consectetur. In fringilla elit sit amet placerat varius. Duis vel lacus ante. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla facilisi. Proin eleifend metus eu ex elementum venenatis. Curabitur sodales, ipsum placerat ornare convallis, sem eros convallis felis, vel efficitur erat ante id diam.</p>
-            `,
+        title: "It Came From Beneath Our School, Pt. 3",
+        date: writeDate(2026, 9, 9),
+        altText: "",
+        imageFiles: "1",
+        authorNotes: ``,
     },
     {
         pgNum: 4,
-        title: '',
-        date: writeDate(2025, 10, 22),
-        altText: "So much alt text...",
-        imageFiles: 1,
-        authorNotes: `
-            <p>Sed lectus magna, dignissim eu sapien quis, euismod pulvinar diam. In odio massa, auctor blandit dolor id, varius ultricies lacus. Suspendisse sed libero vel leo dictum consectetur. In fringilla elit sit amet placerat varius. Duis vel lacus ante. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla facilisi. Proin eleifend metus eu ex elementum venenatis. Curabitur sodales, ipsum placerat ornare convallis, sem eros convallis felis, vel efficitur erat ante id diam.</p>
-            `,
+        title: "It Came From Beneath Our School, Pt. 4",
+        date: writeDate(2026, 9, 9),
+        altText: "",
+        imageFiles: "2",
+        authorNotes: ``,
     },
     {
         pgNum: 5,
-        title: '',
-        date: writeDate(2025, 10, 22),
-        altText: "Here's even more alt text!",
-        imageFiles: 1,
-        authorNotes: `
-            <p>Sed lectus magna, dignissim eu sapien quis, euismod pulvinar diam. In odio massa, auctor blandit dolor id, varius ultricies lacus. Suspendisse sed libero vel leo dictum consectetur. In fringilla elit sit amet placerat varius. Duis vel lacus ante. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla facilisi. Proin eleifend metus eu ex elementum venenatis. Curabitur sodales, ipsum placerat ornare convallis, sem eros convallis felis, vel efficitur erat ante id diam.</p>
-            `,
+        title: "It Came From Beneath Our School, Pt. 5",
+        date: writeDate(2026, 9, 9),
+        altText: "",
+        imageFiles: "4",
+        authorNotes: ``,
     },
     {
         pgNum: 6,
-        title: '',
-        date: writeDate(2025, 10, 22),
-        altText: "Here's even more alt text!",
-        imageFiles: 1,
-        authorNotes: `
-            <p>Sed lectus magna, dignissim eu sapien quis, euismod pulvinar diam. In odio massa, auctor blandit dolor id, varius ultricies lacus. Suspendisse sed libero vel leo dictum consectetur. In fringilla elit sit amet placerat varius. Duis vel lacus ante. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla facilisi. Proin eleifend metus eu ex elementum venenatis. Curabitur sodales, ipsum placerat ornare convallis, sem eros convallis felis, vel efficitur erat ante id diam.</p>
-            `,
+        title: "It Came From Beneath Our School, Pt. 6",
+        date: writeDate(2026, 9, 9),
+        altText: "",
+        imageFiles: "2",
+        authorNotes: ``,
     },
 ];
 
