@@ -80,7 +80,7 @@ const pgData = [
         title: "It Came From Beneath Our School, Pt. 3",
         date: writeDate(2026, 9, 9),
         altText: "",
-        imageFiles: "1",
+        imageFiles: 1,
         authorNotes: ``,
     },
     {
@@ -88,7 +88,7 @@ const pgData = [
         title: "It Came From Beneath Our School, Pt. 4",
         date: writeDate(2026, 9, 9),
         altText: "",
-        imageFiles: "2",
+        imageFiles: 2,
         authorNotes: ``,
     },
     {
@@ -96,7 +96,7 @@ const pgData = [
         title: "It Came From Beneath Our School, Pt. 5",
         date: writeDate(2026, 9, 9),
         altText: "",
-        imageFiles: "4",
+        imageFiles: 4,
         authorNotes: ``,
     },
     {
@@ -104,9 +104,17 @@ const pgData = [
         title: "It Came From Beneath Our School, Pt. 6",
         date: writeDate(2026, 9, 9),
         altText: "",
-        imageFiles: "2",
+        imageFiles: 2,
         authorNotes: ``,
     },
+{
+    pgNum: 7,
+    title: "It Came From Beneath Our School, Pt. 7",
+    date: writeDate(2026, 10, 11),
+    altText: "",
+    imageFiles: 4,
+    authorNotes: ``,
+},
 ];
 
 //below is a function you dont rly need to mess with but if you're more experienced with js you can
